@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #E3E3E3;
+  font-family: 'Roboto', sans-serif;
+  overscroll-behavior: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  width: fit-content;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  position: fixed;
+  top: 0%;
+  background-color: #444444;
+  width: 100vw;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 10vw;
+}
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ position: absolute;
+ top: 50%;
+ left: 20%;
+ transform: translate(0%, -50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card_container{
+ height: 400px;
+ width: 300px;
+ border: 6px solid #444444;
+ padding: 0 25px 0 25px;
+ border-radius: 5px;
+ margin-right: 150px;
+}
+.card_container:hover{
+  transform: translateY(-1px);
+  border: rgb(107, 0, 0) 6px solid;
+  box-shadow: 2px 3px 12px -2px rgba(0,0,0,0.60);
+-webkit-box-shadow: 2px 3px 12px -2px rgba(0,0,0,0.60);
+-moz-box-shadow: 2px 3px 12px -2px rgba(0,0,0,0.60);
+}
+.card_container:hover .index{
+ background-color: rgb(107, 0, 0);
+}
+
+.index{
+  background-color: #444444;
+  width: 40px;
+  height: 40px;
+  border-radius: 0% 0% 50% 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+}
+.title{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #444444;
+  margin-bottom: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.card_container img{
+  width: 100%;
+  border: 1px solid #444444;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description{
+  color: #8F8F8F;
+  font-weight: 600;
+}
+
+.button_group{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.button_group div{
+  color: #fff;
+  background-color: #444444;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+
+.button_group div:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.button_group div:active{
+  background-color: rgb(219, 3, 3);
 }

@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import enum1 from './assets/enum1.svg'
+import Card from './Card';
 
 function App() {
+  const object = {
+    title: 'Project Name',
+    image: enum1,
+    description: 'Hello, this is my first project, it is made with react js and node js and designed inside figmaa',
+    visit: 'www.google.com',
+    code: 'github.com'
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'> <h2>My Library</h2> </div>
+      <div className='container'>
+       <Card  object={object} index={1}/>
+       <Card  object={object} index={1}/>
+       <Card  object={object} index={1}/>
+       <Card  object={object} index={1}/>
+       <Card  object={object} index={1}/>
+       <Card  object={object} index={1}/>
+      </div>
     </div>
   );
 }

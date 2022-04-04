@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myprojects/static/css/main.b3d90ffb.css",
+    "main.js": "/myprojects/static/js/main.171dcb2a.js",
+    "static/media/portfolio.svg": "/myprojects/static/media/portfolio.855b7ecbdf4d3f032d3095688d8b354c.svg",
+    "static/media/shopify.svg": "/myprojects/static/media/shopify.9abdd519aabf058ea13811fb182352ca.svg",
+    "static/media/enum1.svg": "/myprojects/static/media/enum1.7bfb6e6b722522fb4d3bd0a42390580b.svg",
+    "static/media/candy.svg": "/myprojects/static/media/candy.6c39e96d5d68375583812406b9c08c19.svg",
+    "static/media/resume.svg": "/myprojects/static/media/resume.9f53c1ebd7d5fd76058f0ac2f84f1b01.svg",
+    "static/media/enum2.svg": "/myprojects/static/media/enum2.f4ee429ebffb6318d6b73ea38122cd47.svg",
+    "static/media/enumApi.svg": "/myprojects/static/media/enumApi.e360c8fdc4b09d83f676d15c5f181653.svg",
+    "static/media/weather.svg": "/myprojects/static/media/weather.3fa2e9d2ec73fa7933e71066830e9892.svg",
+    "static/media/notes.svg": "/myprojects/static/media/notes.2f8ca0ba8ff67725bb59419124be6125.svg",
+    "static/media/astro.svg": "/myprojects/static/media/astro.62415e100f0fff3724fa02a723f8069b.svg",
+    "static/media/todo.svg": "/myprojects/static/media/todo.4fcecba5ad86d4962c6ab4558c44be61.svg",
+    "static/media/recipe.svg": "/myprojects/static/media/recipe.40631e2456decf7f24f86b7bdfad6586.svg",
+    "index.html": "/myprojects/index.html",
+    "main.b3d90ffb.css.map": "/myprojects/static/css/main.b3d90ffb.css.map",
+    "main.171dcb2a.js.map": "/myprojects/static/js/main.171dcb2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3d90ffb.css",
+    "static/js/main.171dcb2a.js"
+  ]
+}
